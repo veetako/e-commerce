@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart-icon.png";
-import { Link } from "react-router-dom";
 const Navbar = () => {
-    const [menu, setMenu] = useState("groceries");
+    const [menu, setMenu] = useState("shop");
     return (
         <>
             <div className="navbar">
@@ -26,7 +26,7 @@ const Navbar = () => {
                             setMenu("groceries");
                         }}
                     >
-                        <Link to="/groceries">Groceries</Link>{" "}
+                        <Link to="/groceries">Groceries</Link>
                         {menu === "groceries" ? <hr /> : <></>}
                     </li>
                     <li
@@ -34,7 +34,7 @@ const Navbar = () => {
                             setMenu("furniture");
                         }}
                     >
-                        <Link to="/furniture">Furniture</Link>{" "}
+                        <Link to="/furniture">Furniture</Link>
                         {menu === "furniture" ? <hr /> : <></>}
                     </li>
                     <li
@@ -42,7 +42,7 @@ const Navbar = () => {
                             setMenu("fragrances");
                         }}
                     >
-                        <Link to="/fragrances">Fragrances</Link>{" "}
+                        <Link to="/fragrances">Fragrances</Link>
                         {menu === "fragrances" ? <hr /> : <></>}
                     </li>
                     <li
@@ -50,7 +50,7 @@ const Navbar = () => {
                             setMenu("beauty");
                         }}
                     >
-                        <Link to="/beauty">Beauty</Link>{" "}
+                        <Link to="/beauty">Beauty</Link>
                         {menu === "beauty" ? <hr /> : <></>}
                     </li>
                 </ul>

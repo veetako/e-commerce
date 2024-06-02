@@ -1,0 +1,71 @@
+.hero {
+    display: flex;
+    padding: 7rem 180px 0 180px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, #ffffff, #d8d8d8 60%);
+}
+
+.hero-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 1.1;
+}
+.hero-left h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 200px;
+}
+
+.hero-start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 310px;
+    height: 70px;
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-start-btn img {
+    height: 40px;
+}
+
+.hero .hero-right {
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr;
+    max-width: 100%;
+}
+.hero .hero-right img {
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 2px solid #b1b1b1;
+    border-radius: 10px;
+}
+
+.hero-right .hero-apple {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.hero-right .hero-chair {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.hero-right .hero-ckfragrance {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.hero-right .hero-lipstick {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
