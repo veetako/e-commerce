@@ -4,20 +4,12 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 70vh;
-    padding: 100px 180px;
+    padding: 150px 180px;
 }
 
 .favorite h2 {
     font-size: 50px;
     font-weight: 600;
-}
-
-.favorite hr {
-    width: 500px;
-    height: 6px;
-    background: #000;
-    border-radius: 10px;
 }
 
 .favorite-items {

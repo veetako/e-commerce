@@ -5,14 +5,15 @@
     box-shadow: 0 1px 3px -2px #000;
     position: fixed;
     width: 100%;
-    background: #fff;
+    background: #000;
 }
 
-.nav-logo {
+.nav-logo a {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    color: #fff;
+    gap: 5px;
 }
 
 .nav-logo img {
@@ -22,7 +23,6 @@
 .nav-logo p {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-left: 5px;
 }
 
 .nav-menu {
@@ -44,14 +44,15 @@
 }
 
 .nav-menu li a {
-    color: #000;
+    color: #ffffff;
 }
 
 .nav-menu hr {
     border: none;
     height: 3px;
+    margin-top: 6px;
     border-radius: 10px;
-    background-color: #000;
+    background-color: #ffffff;
     animation: hr 0.5s forwards;
 }
 
@@ -64,16 +65,17 @@
 .nav-login-cart button {
     padding: 5px 25px;
     outline: none;
-    border: 2px solid #000;
+    border: 2px solid #ffffff;
     border-radius: 15px;
     font-size: 20px;
     font-weight: 500;
-    background: #fff;
+    background: #000000;
+    color: #fff;
     cursor: pointer;
 }
 
 .nav-login-cart button:active {
-    box-shadow: 0px 0px 1px 1px #000;
+    box-shadow: 0px 0px 2px 2px #ffffff;
 }
 
 .nav-login-cart img {
@@ -85,10 +87,10 @@
     height: 22px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     margin-top: -25px;
     margin-left: -55px;
-    border: 2px solid #000;
+    border: 2px solid #ffffff;
     border-radius: 11px;
     font-size: 14px;
     background: hsl(0, 79%, 59%);

@@ -5,39 +5,20 @@
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(180deg, #ffffff, #d8d8d8 60%);
+    background: linear-gradient(180deg, #ffffff, #f3f3f3 60%);
+    box-shadow: 0 1px 5px -2px #6c6c6c;
 }
 
-.hero-left {
+.hero .hero-left {
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    line-height: 1.1;
+    height: 100%;
+    align-items: center;
 }
+
 .hero-left h2 {
     font-size: 5rem;
     font-weight: 600;
     margin-bottom: 200px;
-}
-
-.hero-start-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 310px;
-    height: 70px;
-    background: #000;
-    color: #fff;
-    border-radius: 50px;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.hero-start-btn img {
-    height: 40px;
 }
 
 .hero .hero-right {

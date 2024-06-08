@@ -9,8 +9,10 @@ const Navbar = () => {
         <>
             <div className="navbar">
                 <div className="nav-logo">
-                    <img src={logo} alt="" />
-                    <p>SHOP</p>
+                    <a href="/">
+                        <img src={logo} alt="website-logo" />
+                        <p>SHOP</p>
+                    </a>
                 </div>
                 <ul className="nav-menu">
                     <li

@@ -10,7 +10,6 @@ const Favorite = () => {
             return (
                 <Item
                     key={item.id}
-                    id={item.id}
                     title={item.title}
                     images={item.images[0]}
                     price={item.price}
@@ -21,7 +20,6 @@ const Favorite = () => {
     return (
         <div className="favorite">
             <h2>FAVORITE PRODUCTS</h2>
-            <hr />
             <div className="favorite-items">{products}</div>
         </div>
     );
