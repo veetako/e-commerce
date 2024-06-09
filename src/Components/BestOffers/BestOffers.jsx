@@ -1,12 +1,12 @@
 import React from "react";
-import "./Favorite.css";
+import "./BestOffers.css";
 import { useData } from "../../Hooks/useData";
 import Item from "../Item/Item";
 
-const Favorite = () => {
+const BestOffers = () => {
     const { data } = useData();
     const products = data.map((item) => {
-        if (item.rating >= 4.5) {
+        if (item.discountPercentage > 18) {
             return (
                 <Item
                     key={item.id}
@@ -19,11 +19,11 @@ const Favorite = () => {
         }
     });
     return (
-        <div className="favorite">
-            <h2>FAVORITE PRODUCTS</h2>
-            <div className="favorite-items">{products}</div>
+        <div className="best">
+            <h2>BEST OFFERS</h2>
+            <div className="best-offers">{products}</div>
         </div>
     );
 };
 
-export default Favorite;
+export default BestOffers;

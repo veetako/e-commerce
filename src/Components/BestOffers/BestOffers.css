@@ -1,0 +1,48 @@
+.best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 180px 150px 180px;
+}
+
+.best h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.best-offers {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.best-offers .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b1b1b1;
+    border-radius: 10px;
+    padding: 20px;
+    height: 350px;
+    width: 250px;
+}
+
+.best-offers .item:hover {
+    cursor: pointer;
+}
+
+.best .price-title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.best img {
+    max-height: 50%;
+}

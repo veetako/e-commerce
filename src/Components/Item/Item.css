@@ -6,12 +6,19 @@
     margin: 6px 0px;
 }
 
-.item-price {
+.item-old-price {
+    color: #969696;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.item-new-price {
     color: #474747;
     font-size: 18px;
     font-weight: 600;
 }
 
 .item:hover {
-    box-shadow: 0 0 4px #b1b1b1;
+    box-shadow: 0 0 10px #b1b1b1;
+    border-color: #000;
 }
