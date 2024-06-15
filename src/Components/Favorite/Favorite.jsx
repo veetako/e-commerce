@@ -10,6 +10,7 @@ const Favorite = () => {
             return (
                 <Item
                     key={item.id}
+                    id={item.id}
                     title={item.title}
                     images={item.images[0]}
                     price={item.price}

@@ -21,6 +21,7 @@
 
 .shop-category-sort img {
     height: 25px;
+    cursor: pointer;
 }
 
 .shop-category-products {
@@ -42,10 +43,7 @@
     height: 380px;
     width: 270px;
     cursor: pointer;
-}
-
-.shop-category-products img {
-    max-height: 60%;
+    color: #000;
 }
 
 .shop-category-more {

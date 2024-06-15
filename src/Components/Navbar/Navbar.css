@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     background: #000;
+    z-index: 1000;
 }
 
 .nav-logo a {

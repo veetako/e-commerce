@@ -4,7 +4,7 @@ import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart-icon.png";
 const Navbar = () => {
-    const [menu, setMenu] = useState("shop");
+    const [menu, setMenu] = useState("");
     return (
         <>
             <div className="navbar">

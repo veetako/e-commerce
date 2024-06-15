@@ -1,4 +1,3 @@
-import Navbar from "./Components/Navbar/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Shop from "./Pages/Shop";
 import Category from "./Pages/Category";
