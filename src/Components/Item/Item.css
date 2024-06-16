@@ -20,30 +20,36 @@
 .item:hover {
     box-shadow: 0 0 10px #b1b1b1;
     cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.4s;
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     border: 2px solid #b1b1b1;
     border-radius: 10px;
-    padding: 30px;
-    height: 350px;
+    padding: 20px;
+    height: 370px;
     width: 250px;
     color: #000;
 }
-
-.price-title {
+.item-img {
     display: flex;
-    text-align: center;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.price-title {
+    display: flex;
+    text-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
-img {
+.item-img img {
     max-height: 250px;
     max-width: 230px;
 }

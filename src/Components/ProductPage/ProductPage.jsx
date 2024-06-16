@@ -14,18 +14,20 @@ const ProductPage = (props) => {
         newPrice = product.price;
         oldPrice = null;
     }
+
     return (
         <div className="product-page">
             <div className="productpage-left">
-                <div className="productpage-images">
-                    <img src={product.images[0]} alt=""></img>
-                    <img src={product.images[0]} alt=""></img>
-                </div>
                 <div className="productpage-main-image">
                     <img
                         className="productpage-main-img"
                         src={product.images[0]}
                     />
+                </div>
+                <div className="productpage-images">
+                    <img src={product.images[0]} alt=""></img>
+                    <img src={product.images[0]} alt=""></img>
+                    <img src={product.images[0]} alt=""></img>
                 </div>
             </div>
             <div className="productpage-right">
@@ -39,6 +41,11 @@ const ProductPage = (props) => {
                 <div className="productpage-description">
                     {product.description}
                 </div>
+                <p className="productpage-category">
+                    <span>Category: </span>
+                    {product.category}
+                </p>
+                <button>ADD TO CART</button>
             </div>
         </div>
     );

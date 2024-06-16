@@ -31,21 +31,6 @@
     gap: 80px;
 }
 
-.shop-category-products .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 2px solid #b1b1b1;
-    border-radius: 10px;
-    padding: 20px;
-    height: 380px;
-    width: 270px;
-    cursor: pointer;
-    color: #000;
-}
-
 .shop-category-more {
     display: flex;
     justify-content: center;

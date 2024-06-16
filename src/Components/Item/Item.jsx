@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import "./Item.css";
 
 const Item = (props) => {
-    if (props.discountPercentage > 18 && props.price > 1) {
+    if (props.discountPercentage > 15 && props.price > 1) {
         return (
             <Link to={`/product/${props.id}`}>
                 <div className="item">
-                    <img src={props.images} alt="" />
+                    <div className="item-img">
+                        <img src={props.images} alt="" />
+                    </div>
 
                     <div className="price-title">
                         <p>{props.title}</p>
@@ -30,8 +32,9 @@ const Item = (props) => {
         return (
             <Link to={`/product/${props.id}`}>
                 <div className="item">
-                    <img src={props.images} alt="" />
-
+                    <div className="item-img">
+                        <img src={props.images} alt="" />
+                    </div>
                     <div className="price-title">
                         <p>{props.title}</p>
                         <div className="item-new-price">

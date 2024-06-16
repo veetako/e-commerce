@@ -7,7 +7,7 @@ import Slider from "../Slider/Slider";
 const BestOffers = () => {
     const { data } = useData();
     const products = data.map((item) => {
-        if (item.discountPercentage > 18 && item.price > 1) {
+        if (item.discountPercentage > 15 && item.price > 1) {
             return (
                 <Item
                     key={item.id}
@@ -22,7 +22,7 @@ const BestOffers = () => {
     });
     return (
         <div className="best">
-            <h2>BEST OFFERS</h2>
+            <h2>CHECK OUT OUR BEST OFFERS</h2>
             <div className="best-offers">
                 <Slider products={products} />
             </div>
